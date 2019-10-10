@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "resources",
+  "info": {
+    "name": "resource",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
